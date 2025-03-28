@@ -1,0 +1,9 @@
+---
+title: "RUBICON [Form Curation While Creation]"
+# excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "The goal of this project is to leverage Generative AI technology to improve the quality of unstructured text that pervasively exists across many key naval data sources. The overarching goal will be to assist the end users with suggested texts/ dropdowns as recommendations, which will minimize their data entry effort while giving rise to high quality unstructured text.<br><br>The desired solution will:<br>1) Generate a general purpose curation / creation text engine that facilitates completing a variety of text-based forms.<br>2) Describe a mechanism for incorporating technical terminology appropriate for a specific usage domains (potentially including sensitive or classified data).<br><br>__Funding source:__ Boston Fusion Corporation and Office of Naval Research.<br><br><img src='../images/project-1.png' style='width: 95%; height: auto;'>"
+collection: projects
+permalink: /projects/project-1
+---
+
+The goal of this project is to leverage Generative AI technology to improve the quality of unstructured text that pervasively exists across many key naval data sources. The overarching goal will be to assist the end users with suggested texts/ dropdowns as recommendations, which will minimize their data entry effort while giving rise to high quality unstructured text.<br><br>The desired solution will:<br>1) Generate a general purpose curation / creation text engine that facilitates completing a variety of text-based forms.<br>2) Describe a mechanism for incorporating technical terminology appropriate for a specific usage domains (potentially including sensitive or classified data).<br><br>__Funding source:__ Boston Fusion Corporation and Office of Naval Research.<br><br><img src='../images/project-1.png' style='width: 95%; height: auto;'>

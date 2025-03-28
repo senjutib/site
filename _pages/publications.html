@@ -1,0 +1,122 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+<style>
+.bibtex {
+  background: #ffffff;
+  padding: 5px;
+  border-left: 2px solid #007bff;
+  font-family: monospace;
+  font-size: 12px;
+  display: none; /* Ensure it starts hidden */
+  white-space: pre-wrap;
+}
+
+.bibtex-btn {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.bibtex-btn:hover {
+  text-decoration: none;
+}
+
+.pub-title {
+  font-size: 20px; /* Change size */
+  font-weight: bold;
+  color: #333; /* Adjust color */
+  margin: 0 0 2px 0;
+  text-decoration: none; /* Remove underline */
+}
+
+.pub-venue {
+  color: #000000;
+  margin: 0 0 0 0;
+  text-decoration: none;
+}
+
+.pub-authors {
+  color: #000000;
+  margin: 0 0 1px 0;
+  text-decoration: none;
+}
+
+.pub-links {
+  color: #007bff; /* Make links blue */
+  margin: 0 0 0px 0;
+  text-decoration: none;
+}
+</style>
+
+
+
+{% if site.publication_category %}
+  {% for category in site.publication_category %}
+    {% assign title_shown = false %}
+    
+    {% assign category_publications = site.publications | where: "category", category[0] | sort: "year" | reverse %}
+    
+    {% if category_publications.size > 0 %}
+      <!-- <h2>{{ category[1].title }}</h2>
+      <hr /> -->
+      
+      <ul class="publication-list">
+        {% for post in category_publications %}
+          <li class="publication">
+            <h3 class="pub-title">
+              {{ post.title }}
+            </h3>
+            {% if post.venue %}
+              <p class="pub-venue"><em>{{ post.venue }}, {{post.year}}</em></p>
+            {% endif %}
+            <p class="pub-authors"><strong>Authors:</strong> {{ post.authors }}</p>
+            <p class="pub-links">
+              {% if post.pdf %} <a href="{{ post.pdf }}" target="_blank">[Paper]</a> {% endif %}
+              {% if post.code %} <a href="{{ post.code }}" target="_blank">[Code]</a> {% endif %}
+              {% if post.bibtex %}
+                <button class="bibtex-btn" onclick="toggleBibtex('bibtex-{{ forloop.index }}')">[BibTex]</button>
+              {% endif %}
+            </p>
+
+            {% if post.bibtex %}
+              <pre id="bibtex-{{ forloop.index }}" class="bibtex">{{ post.bibtex }}</pre>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+{% else %}
+
+  <hr />
+  <ul class="publication-list">
+    {% for post in site.publications | sort: "year" | reverse %}
+      <li class="publication">
+        <h3 class="pub-title">
+          {{ post.title }}
+        </h3>
+        {% if post.venue %}
+          <p class="pub-venue"><em>{{ post.venue }}, {{post.year}}</em></p>
+        {% endif %}
+        <p class="pub-authors"><strong>Authors:</strong> {{ post.authors }}</p>
+        <p class="pub-links">
+          {% if post.pdf %} <a href="{{ post.pdf }}" target="_blank">[Paper]</a> {% endif %}
+          {% if post.code %} <a href="{{ post.code }}" target="_blank">[Code]</a> {% endif %}
+          {% if post.bibtex and post.bibtex != "" %}
+            <button class="bibtex-btn" onclick="toggleBibtex('bibtex-{{ forloop.index }}')">[BibTex]</button>
+          {% endif %}
+        </p>
+        {% if post.bibtex and post.bibtex != "" %}
+          <pre id="bibtex-{{ forloop.index }}" class="bibtex">{{ post.bibtex }}</pre>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
