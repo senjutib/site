@@ -17,5 +17,5 @@ main:
   - title: "Tutorials"
     url: /tutorials/
     
-  - title: "Contact Us"
-    url: /markdown/
+  # - title: "Contact Us"
+  #   url: /markdown/
