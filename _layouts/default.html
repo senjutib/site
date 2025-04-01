@@ -10,7 +10,21 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
   </head>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+  <script>
+    function toggleBibtex(id) {
+        var bibtex = document.getElementById(id);
+        if (bibtex) {  // Ensure element exists
+            if (bibtex.style.display === "none" || bibtex.style.display === "") {
+                bibtex.style.display = "block";
+            } else {
+                bibtex.style.display = "none";
+            }
+        } else {
+            console.error("BibTeX element not found: " + id);
+        }
+    }
+  </script>
   <body>
 
     {% include browser-upgrade.html %}
@@ -29,18 +43,3 @@ layout: compress
 
   </body>
 </html>
-
-<script>
-  function toggleBibtex(id) {
-      var bibtex = document.getElementById(id);
-      if (bibtex) {  // Ensure element exists
-          if (bibtex.style.display === "none" || bibtex.style.display === "") {
-              bibtex.style.display = "block";
-          } else {
-              bibtex.style.display = "none";
-          }
-      } else {
-          console.error("BibTeX element not found: " + id);
-      }
-  }
-  </script>
