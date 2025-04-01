@@ -84,7 +84,6 @@ author_profile: true
                 <button class="bibtex-btn" onclick="toggleBibtex('bibtex-{{ forloop.index }}')">[BibTex]</button>
               {% endif %}
             </p>
-
             {% if post.bibtex %}
               <pre id="bibtex-{{ forloop.index }}" class="bibtex">{{ post.bibtex }}</pre>
             {% endif %}
