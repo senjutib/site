@@ -6,16 +6,16 @@
 
 main:
   - title: "Research Projects"
-    url: /projects/  
+    url: /site/projects/  
 
   - title: "Publications"
-    url: /publications/ 
+    url: /site/publications/ 
     
   - title: "People"
-    url: /people/
+    url: /site/people/
         
   - title: "Tutorials"
-    url: /tutorials/
+    url: /site/tutorials/
     
   # - title: "Contact Us"
   #   url: /markdown/
