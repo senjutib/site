@@ -13,8 +13,8 @@ title                    : "BIG DATA ANALYTICS LAB"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://bdal-njit.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "site" # the subpath of your site, e.g. "/blog"
+url                      : https://bdal-njit.github.io/site # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "site"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
