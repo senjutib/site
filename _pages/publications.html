@@ -96,7 +96,8 @@ author_profile: true
 
   <hr />
   <ul class="publication-list">
-    {% for post in site.publications | sort: "year" | reverse %}
+    {% assign sorted_publications = site.publications | sort: "year" | reverse %}
+    {% for post in sorted_publications %}
       <li class="publication">
         <h3 class="pub-title">
           {{ post.title }}

@@ -12,7 +12,7 @@ Big Data Analytics Lab (BDAL) at New Jersey Institute of Technology is directed 
 
 At BDAL, we study optimization opportunities that come across because of this unique man-machine collaboration and address data management and computational challenges to enable large-scale analytics with humans-in-the-loop.  Our focus domains are social networks, healthcare, climate science, retail and business, and spatial data. <br><br>
 
-The research projects at BDAL are funded by the __National Science Foundation__, __Office of Naval Research__, __National Institute of Health__, __Microsoft Research__, __Multicare Health Systems__.
+The research projects at BDAL are funded by the National Science Foundation, Office of Naval Research, National Institute of Health, Microsoft Research, Multicare Health Systems.
 </div>
 
 
