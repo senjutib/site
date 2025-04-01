@@ -10,9 +10,9 @@ redirect_from:
 <div style="text-align: justify;">
 Big Data Analytics Lab (BDAL) at New Jersey Institute of Technology is directed by <a href="https://web.njit.edu/~senjutib/index.html">Prof. Senjuti Basu Roy</a>. BDAL focuses on cutting-edge research in data science and algorithm development, leveraging advanced methodologies to solve real-world problems. The lab explores various domains, including "humans-in-the-loop" for large-scale data analytics, machine learning applications, and the responsible use of AI. These problems arise at different stages in both traditional and modern data science pipelines (e.g. data cleaning, query answering, ad-hoc data exploration, or predictive modeling), as well as from emerging applications. More specifically, BDAL employs tools such as large language models (LLMs), reinforcement learning (RL), and optimization techniques to tackle challenges in top-k fairness, information retrieval, and decision-making. Through interdisciplinary collaborations and applied research, BDAL aims to push the boundaries of data-driven innovation while ensuring fairness and efficiency in algorithmic solutions.<br><br>
 
-We study optimization opportunities that come across because of this unique man-machine collaboration and address data management and computational challenges to enable large-scale analytics with humans-in-the-loop.  Our focus domains are social networks, healthcare, climate science, retail and business, and spatial data. <br><br>
+At BDAL, we study optimization opportunities that come across because of this unique man-machine collaboration and address data management and computational challenges to enable large-scale analytics with humans-in-the-loop.  Our focus domains are social networks, healthcare, climate science, retail and business, and spatial data. <br><br>
 
-The research projects at BDAL are funded by the National Science Foundation, Office of Naval Research, National Institute of Health, Microsoft Research, Multicare Health Systems.
+The research projects at BDAL are funded by the __National Science Foundation__, __Office of Naval Research__, __National Institute of Health__, __Microsoft Research__, __Multicare Health Systems__.
 </div>
 
 
