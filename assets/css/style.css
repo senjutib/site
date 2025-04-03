@@ -1,0 +1,7 @@
+.avatar {
+    width: 150px;  /* Adjust size */
+    height: 150px; /* Ensure square shape */
+    border-radius: 0; /* Remove rounded corners */
+    object-fit: cover; /* Ensure proper cropping */
+}
+

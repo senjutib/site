@@ -223,6 +223,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  past_projects:
+    output: true
+    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -272,6 +275,15 @@ defaults:
   - scope:
       path: ""
       type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _past_projects
+  - scope:
+      path: ""
+      type: past_projects
     values:
       layout: single
       author_profile: true

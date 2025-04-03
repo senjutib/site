@@ -82,6 +82,7 @@ author_profile: true
               {% if post.code %} <a href="{{ post.code }}" target="_blank">[Code]</a> {% endif %}
               {% if post.bibtex %}
                 <button class="bibtex-btn" onclick="toggleBibtex('bibtex-{{ forloop.index }}')">[BibTex]</button>
+                <!-- <button class="bibtex-btn" data-target="bibtex-{{ forloop.index }}">[BibTex]</button> -->
               {% endif %}
             </p>
             {% if post.bibtex %}
@@ -111,6 +112,7 @@ author_profile: true
           {% if post.code %} <a href="{{ post.code }}" target="_blank">[Code]</a> {% endif %}
           {% if post.bibtex and post.bibtex != "" %}
             <button class="bibtex-btn" onclick="toggleBibtex('bibtex-{{ forloop.index }}')">[BibTex]</button>
+            <!-- <button class="bibtex-btn" data-target="bibtex-{{ forloop.index }}">[BibTex]</button> -->
           {% endif %}
         </p>
         {% if post.bibtex and post.bibtex != "" %}
