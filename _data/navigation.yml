@@ -8,8 +8,8 @@ main:
   - title: "Research Projects"
     url: /projects/  
 
-  - title: "Past Projects"
-    url: /past_projects/  
+  - title: "Teaching"
+    url: /teaching/  
 
   - title: "Publications"
     url: /publications/ 
@@ -19,6 +19,3 @@ main:
         
   - title: "Tutorials"
     url: /tutorials/
-    
-  # - title: "Contact Us"
-  #   url: /markdown/

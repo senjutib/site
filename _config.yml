@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "BIG DATA ANALYTICS LAB"
+title                    : "HOME"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Senjuti Basu Roy"
 description              : &description "personal description"
 url                      : https://bdal-njit.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "/site" # the subpath of your site, e.g. "/blog"
@@ -22,14 +22,19 @@ repository               : ""
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bdal-logo.png"
-  name             : "BDAL@NJIT"
+  avatar           : "senjuti_img.jpg"
+  name             : "Senjuti Basu Roy"
   pronouns         : # example: "she/her"  
-  # bio              : "Short biography for the left-hand sidebar"
+  bio              : |
+                      Panasonic Chair in Sustainability<br>
+                      Associate Professor<br>
+                      Director of MS Data Science<br>
+                      Department of Computer Science<br>
   location         : "Newark, NJ"
   employer         : New Jersey Institute of Technology
   uri              : # URL
   email            : "senjutib@njit.edu" 
+  phone            : 973-596-3662
 
 
   # Academic websites
@@ -214,16 +219,13 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   projects:
     output: true
     permalink: /:collection/:path/
-  past_projects:
+  teaching:
     output: true
     permalink: /:collection/:path/
   talks:
