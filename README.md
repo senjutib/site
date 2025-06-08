@@ -76,7 +76,8 @@ Unfortunately, one logistical issue with a template theme like Academic Pages th
 
 
 **[VERY IMPORTANT] How to locate files to edit sections:** 
-- Modify tabs: /_data/navigation.yml
+- Modify tabs (on top): /_data/navigation.yml
 - Homepage: /_pages/home.md
 - Side bar (where the avatar is): _config.yml
 - Footer: /_includes/footer.html
+- Edit quote: go to /_includes/author_profile.html   then   scroll to the end
